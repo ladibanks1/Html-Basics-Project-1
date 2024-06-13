@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home"> HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#work">WORK</a>
+            <a href="#resume">RESUME</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+       
+        <section id="home">
+            <img src="https://avatars.githubusercontent.com/u/152061047?s=400&"u=a52c501ec01b97624c4766764c8ff6f3fedaca34&v=4alt="A man picture" width="350px">
+            <h1><u>HOME</u></h1>
+            <h2>Welcome to My portfolio Page</h2>
+            <p>Here is a music to chill with</p>
+            <p>Bankole Oladipupo</p>
+            <p>I'm a currently learning sofware development in <a target="_blank" href="https://www.gomycode.com">GOMYCODE</a></p>
+            <!-- <audio src="../audio/01-Fireboy-DML-Change-(JustNaija.com).mp3" controls></audio> -->
+        </section>
+        <section id="about">
+            <h2><u>ABOUT MY WORK</u></h2>
+            <iframe width="350" height="315" src="https://www.youtube.com/embed/_WQ_VV4pXPc?si=NM1znQDJxRP5vPZC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>The video about talk about usefulness of software devlopment in our current world</p>
+        </section>
+        <section id="work">
+                <h2><u>WORK</u></h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Company Name</th>
+                            <th>Year Started</th>
+                            <th>Year Ended</th>
+                        </tr>
+                        <tr>
+                            <td>LABANK ent</td>
+                            <td>2010</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>De-Monarchs sch</td>
+                            <td>2021</td>
+                            <td>2022</td>
+                        </tr>
+                        <tr>
+                            <td>GOMYCODE</td>
+                            <td>2024</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                </table>
+        </section>
+        <section id="resume">
+            <h2><u>RESUME</u></h2>
+            <p>Click the <a href="https://www.github.com/ladibanks1">link</a> to view my gihub account</p>
+        </section>
+    </main>
+        <section id="contact">
+            <h2><u>CONTACT ME</u></h2>
+            <!-- <p><a href="mailto:oladipupobankole24@gmail.com">Email me </a></p> -->
+            <form action="mailto:oladipupobankole24@gmail.com" method="post">
+                <input type="text" placeholder="Name" name="name"><br>
+                <input type="email" placeholder="Email" name="email"><br>
+                <input type="number" placeholder="Phone Number" name="number"><br>
+                <fieldset> 
+                    <legend>How does my Website look</legend>
+                        <label for="rating"><input type="radio" value="Good" id="good" name="rating">Good</label>
+                        <label for="rating"><input type="radio" value="Bad" id="bad" name="rating">Bad</label>
+                </fieldset>
+                <label for="rating">
+                    <select id="rating">
+                        <option value="">Rate it</option>
+                        <option value="1">1 star</option>
+                        <option value="2">2 star</option>
+                        <option value="3">3 star</option>
+                        <option value="4">4 star</option>
+                        <option value="5">5 star</option>
+                    </select>
+                </label><br>
+                <textarea placeholder="Drop a message for me" rows="9" cols="40"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>&copy <small>oladipupo</small></footer>
+</body>
+</html>
